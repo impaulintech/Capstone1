@@ -1,3 +1,40 @@
-Hello sir, I know that you'll read this notes.
-Sorry Wala pa po ako sa coding part. I'm still visualizing my portfolio to be unique, and planning all the elements na kailangan at hindi kailangan. Once na ma gather ko na po yung resources.I'll make another push. 
-Thanks sir.
+// Dark color theme
+background-image: linear-gradient( 106.9deg,  rgba(148,14,60,1) 60.9%, rgba(3,22,27,1) 122.3% );
+
+// Light color theme
+background-image: linear-gradient( 108.4deg,  rgba(190,30,36,1) 6.6%, rgba(105,12,16,1) 74.9% );
+
+// Fonts
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+font-family: 'Poppins', sans-serif; // P
+font-family: Rubik Mono One; // heading
+font-size: 96;
+color: #fff;
+
+// Page Details
+*HOME
+	= 4 total elements to call action. 100/4 = 25% Catch Attention per elements.
+*ABOUT ME
+	=Short 5-10 sentences about me
+		=Name, Age, Hobbies.
+		=Why did I choose to become a Software Engineer?
+		=My Goal.
+		=How to achieve my Goal.
+		=Random Qoutes.
+		=Skills.
+		*Call to action Button
+			=Check out my Projects.
+			=Contact me.
+*PROJECTS
+	=Make a gallery of all session's work from Gitlab.
+	=Share personal projects.
+	=Future projects.
+	*Call to action Button.
+		=About me.
+		=Contact me.
+*CONTACT
+	=Table form data.
+	=Quotes.
+	"Lets talk about Business"
