@@ -13,20 +13,44 @@ font-family: Rubik Mono One; // heading
 font-size: 96;
 color: #fff;
 
+//Colors
+Primary: 3A0119
+Secondary: FF0066
+Dark: 292929
+
+
 // Page Details
 *HOME
 	= 4 total elements to call action. 100/4 = 25% Catch Attention per elements.
 *ABOUT ME
 	=Short 5-10 sentences about me
 		=Name, Age, Hobbies.
-		=Why did I choose to become a Software Engineer?
+			Hello I'am Paul in Tech. 
+			I'm currently in my 20's, and I love trading and investing in cryptocurrencies. 
+			I currently developing my habits for my future healthy self. 
+			While I enjoy coding and solving real-world problems.
+
+		=Why did I choose to become a Software Engineer? ^
 		=My Goal.
+			Everyone has a fantasy company, and FAANG is mine.
+			My ambition is to work for the company that fulfills all of my wildest fantasies.
+			I want to surround myself with intelligent people from all over the world. I can learn from them, gain experience, and improve my own creations.
+
 		=How to achieve my Goal.
+			Setting a goal is as simple as 0, 1, 2.
+			But making it happen is so difficult, but that is what life is all about.
+			My plan is to learn computer languages.
+			And command them to empower me in reaching my ambitious goals.
+
 		=Random Qoutes.
+			"It's easy to tell computers what to do, if they can understand you."
 		=Skills.
+			"HTML5, CSS3, JavaScript, Python, PHP, React JS, SQL"
 		*Call to action Button
 			=Check out my Projects.
 			=Contact me.
+
+
 *PROJECTS
 	=Make a gallery of all session's work from Gitlab.
 	=Share personal projects.
@@ -38,3 +62,5 @@ color: #fff;
 	=Table form data.
 	=Quotes.
 	"Lets talk about Business"
+	=Scanable details
+	=Digital Calling Card
