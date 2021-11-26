@@ -1,27 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Capstone Project 1 | John Paul Banera</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link href="./css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<script src="./js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<title>Capstone Project 1 | John Paul Banera</title> 
+	<meta property="og:site_name" content="John Paul Banera">
+	<meta property="og:title" content="Capstone Project 1">
+	<meta property="og:image" content="./assets/images/meh/cover.png">
+	<meta property="og:description" content="Some description">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">  
+	<link rel="stylesheet" href="./css/style.css"> 
+	<link rel="stylesheet" href="./css/custom.css"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet"> 
+	<link rel="icon" href="./assets/images/icons/logo-dark.png" >
 </head>
-<body>
-	<nav class="nav nav-pills flex-column flex-sm-row bg-dark" style="position: fixed; width: 100%; ">
-		<a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#top">PAUL IN TECH</a>
-		<a class="flex-sm-fill text-sm-center nav-link" href="#about-me">About me</a>
-		<a class="flex-sm-fill text-sm-center nav-link" href="#projects">Projects</a>
-		<a class="flex-sm-fill text-sm-center nav-link" href="#contact">Contact</a>
-	</nav>
-	<div id="home">
-		<h1>
-			THIS IS HOME PAGE
-		</h1>
+<body id="top">
+	<!-- Navbar Section -->
+	<section id="navbar">
+		<a class="navbar-brand logo" href="#top">Paul in tech</a>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+		  <div class="container-fluid justify-content-end">
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-font">
+		        <li class="nav-item">
+		          <a class="nav-link" aria-current="page" href="#home">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#about">About</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#projects">Projects</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" aria-current="page" href="#contact">Contact Me</a>
+		        </li> 
+		      </ul> 
+		    </div>
+		  </div>
+		</nav>
+	</section>
+	<!-- End of Navbar -->
+
+	<!-- Landing page  -->
+	<div id="landing">
+		<div class="landing-page">
+			<p class="hello">Hello, I am</p>
+			<h1 class="heading">Paul in Tech</h1>
+			<p class="sub">I tell computers what to do, sometimes they listen</p>
+			<a class="fancy" href="#home" id="fancy">
+				<span class="top-key"></span>
+				<span class="text">let's dive in</span>
+				<span class="bottom-key-1"></span>
+				<span class="bottom-key-2"></span>
+			</a>
+		</div>
 	</div>
-	<div id="about-me">
-		<h1>
-			THIS IS ABOUT ME
-		</h1>
+
+	<!-- Home section  -->
+	<div id="home">
+		<div class="container"> 
+			<div class="row">
+				<div class="col-sm-12">
+					<img src="./assets/images/meh/meh-cover-desktop.png"
+				</div>  
+			</div>  
+			<div class="row">
+				<div class="col-md-4 bg-warning">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div> 
+				<div class="col-md-4 bg-danger">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>  
+				<div class="col-md-4 bg-warning">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>  
+			</div>
+		</div>
+	</div>
+
+	<!-- About section -->
+	<div id="about">
+		<div class="container">
+			<div class="row"> 
+				<div class="col-lg-6">
+					<img src="./assets/images/meh/about-business.png" />
+				</div> 
+				<div class="col-lg-6">
+					<div class="d-flex flex-column"> 
+						<div class="p-2 about-heading"  >
+							<h1><span class="abt-heading"></span><span class="me-heading"></span></h1>
+						</div>
+						<div class="p-2">
+							<p class="about-subheading">
+								Hello I'am Paul in Tech. 
+								I'm in my twenties and I enjoy trading and investing in cryptocurrencies. 
+								I'm currently working on developing habits for my future.  
+								While I enjoy coding and solving real-world problems.
+							</p>
+						</div> 
+					  </div>
+				</div>  
+			</div>
+		</div>
 	</div>
 	<div id="projects">
 		<h1>
@@ -34,14 +134,15 @@
 		</h1>
 	</div>
 	<div id="footer">
-		<h1>
-			THIS IS FOOTER
-			<a class="flex-sm-fill text-sm-center nav-link" href="#top">Back to top</a>
-		</h1>
+		<footer class="container text-center">
+			<p>Copyright c 2021 | PaulinTech</p>
+			<p>It's not about ideas. It's about making ideas happen.</p> 
+		</footer>
 	</div>
-
-
+	<!-- JavaSscript Zone -->
+	<!-- Bootstrap JS -->
 	<script src="./js/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 	<script src="./js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 </body>
 </html>

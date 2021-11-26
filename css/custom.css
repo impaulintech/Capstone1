@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+} 
+#navbar { 
+    top: 0;
+    width: 100%;
+    font-weight: bold;
+    padding: 0 !important;
+    position: fixed; 
+    z-index: 998;
+  }
+  
+  .navbar-nav li{
+    padding: 0 10px;
+  }
+  
+  .navbar-nav li a {
+    color: white !important; 
+    font-weight: bold;
+    float: right;
+  }

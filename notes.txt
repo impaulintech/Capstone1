@@ -63,4 +63,5 @@ Dark: 292929
 	=Quotes.
 	"Lets talk about Business"
 	=Scanable details
+	=Soc Med Acc.
 	=Digital Calling Card
