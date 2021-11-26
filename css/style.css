@@ -291,11 +291,12 @@ body {
 } 
 .roadmap-heading::before {
 	content: "roadmap";
+	font-size: 45px;
 	border-bottom: 5px solid #FF0066;
 } 
 
 .goal-subheading, .roadmap-subheading { 
-	font-size: 18px;
+	font-size: 24px;
 	font-family: arial;
 	font-weight: normal;
 }
@@ -326,6 +327,7 @@ h3 {
 
 .projects-heading::before {
 	content: "Projects";
+	font-size: 45px;
 	border-bottom: 5px solid #FF0066;
 }
 
