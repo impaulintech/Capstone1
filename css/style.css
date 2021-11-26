@@ -233,7 +233,7 @@ body {
 #home {
     color: #fff;
 	background-image: url('.././assets/images/ligh-bg/about-bg-desktop.png');    
-	padding: 150px 0;
+	padding: 100px 0;
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed; 
 	background-repeat: no-repeat;
@@ -264,38 +264,127 @@ body {
 	padding-bottom: 20px;
 	border-bottom: 5px solid #FF0066;
 } 
-  
+
+.home-cover > img {
+	width: 100%;
+
+}
+
+.options {
+	margin-top: 15px;
+}
 
 #about {
-    color: #fff;
-	background-color: green; 
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    color: #fff; 
+	padding: 100px 0; 
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/ligh-bg/about-bg-desktop.png');
+	background-image: url('.././assets/images/ligh-bg/bg-light.png');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
+.goal-heading::before {
+	content: "goal"; 
+	border-bottom: 5px solid #FF0066;
+} 
+.roadmap-heading::before {
+	content: "roadmap";
+	border-bottom: 5px solid #FF0066;
+} 
+
+.goal-subheading, .roadmap-subheading { 
+	font-size: 18px;
+	font-family: arial;
+	font-weight: normal;
+}
+ 
+.languange > div > img {
+	padding: 100px 0 20px 0;
+	width: 50%;
+}
+
+h3 {
+	padding: 20px 0 100px 0; 
+}
+
+
+
 #projects {
     color: #fff;
 	background-color: brown;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding: 100px 0;
 	/* Create the parallax scrolling effect */
+	background-image: url('.././assets/images/ligh-bg/bg-light.png');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
+.projects-heading::before {
+	content: "Projects";
+	border-bottom: 5px solid #FF0066;
+}
+
+
 #contact {
     color: #fff;
 	background-color: orange;
-	height: 100vh;
+	padding: 100px 0;
+	/* Create the parallax scrolling effect */
+	background-image: url('.././assets/images/ligh-bg/about-bg-tablet.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.text-a {
+	color: #FF0066;
+}
+
+.projects-heading-2 {
+	font-size: 45px;;
+}
+.projects-capstone1::before {
+	content: "Capstone 01";
+	border-bottom: 5px solid #FF0066;
+}
+.projects-axie::before {
+	content: "Axie tool";
+	border-bottom: 5px solid #FF0066;
+}
+.projects-coming-soon::before {
+	content: "coming soon";
+	border-bottom: 5px solid #FF0066;
+}
+
+.capstone-1{
+	padding-top: 100px;
+}
+
+.img {
+	background-image: url('.././assets/images/meh/contact-thumb.png');
+	height: 100%;
+}
+@media screen and (max-width: 700px) {
+	.img { 
+		height: 500px;
+	}
+} 
+
+
+
+
+#footer {
+    color: #fff;
+	background-color: black;
+	color: white; 
+	padding: 200px 0; 
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -305,18 +394,29 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#footer {
-    color: #fff;
-	background-color: black;
-	color: white;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+
+.top-btn { 
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	opacity: 0.3;
+	transition: .5s ease-in-out;
+}
+.top-btn:hover { 
+	cursor: pointer; 
+	opacity: 1;
+	transition: .5s ease-in-out;
+}
+ 
+.toggle-btn { 
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	opacity: 0.3;
+	transition: .5s ease-in-out;
+}
+.toggle-btn:hover { 
+	cursor: not-allowed;  
+	transition: .5s ease-in-out;
 }
  
