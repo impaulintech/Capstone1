@@ -383,6 +383,7 @@ h3 {
     color: #fff;
 	background-color: black;
 	color: white; 
+	height: 100vh;
 	padding: 200px 0; 
 	display: flex;
 	justify-content: center;
