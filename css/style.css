@@ -232,7 +232,7 @@ body {
 
 #home {
     color: #fff;
-	background-image: url('.././assets/images/ligh-bg/about-bg-desktop.png');    
+	background-image: url('.././assets/images/ligh-bg/bg-final.png');    
 	padding: 100px 0;
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed; 
@@ -278,7 +278,7 @@ body {
     color: #fff; 
 	padding: 100px 0; 
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/ligh-bg/about.png');
+	background-image: url('.././assets/images/ligh-bg/bg-final.png');
 	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -316,7 +316,7 @@ h3 {
 	background-color: brown;
 	padding: 100px 0;
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/ligh-bg/bg-fix-invert.png'); 
+	background-image: url('.././assets/images/ligh-bg/bg-final.png'); 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -335,7 +335,7 @@ h3 {
 	background-color: orange;
 	padding: 100px 0;
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/ligh-bg/contact.png');
+	background-image: url('.././assets/images/ligh-bg/bg-final.png');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
