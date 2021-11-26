@@ -26,8 +26,8 @@ Dark: 292929
 	=Short 5-10 sentences about me
 		=Name, Age, Hobbies.
 			Hello I'am Paul in Tech. 
-			I'm currently in my 20's, and I love trading and investing in cryptocurrencies. 
-			I currently developing my habits for my future healthy self. 
+			I'm in my twenties and I enjoy trading and investing in cryptocurrencies. 
+			I'm currently working on developing habits for my future.  
 			While I enjoy coding and solving real-world problems.
 
 		=Why did I choose to become a Software Engineer? ^
