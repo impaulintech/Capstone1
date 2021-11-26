@@ -313,8 +313,7 @@ h3 {
 
 
 #projects {
-    color: #fff;
-	background-color: brown;
+    color: #fff; 
 	padding: 100px 0;
 	/* Create the parallax scrolling effect */
 	background-image: url('.././assets/images/ligh-bg/bg-final.png'); 
@@ -333,8 +332,7 @@ h3 {
 
 
 #contact {
-    color: #fff;
-	background-color: orange;
+    color: #fff; 
 	padding: 100px 0;
 	/* Create the parallax scrolling effect */
 	background-image: url('.././assets/images/ligh-bg/bg-final.png');
