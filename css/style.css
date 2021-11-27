@@ -3,7 +3,6 @@
 	margin: 0; 
 	box-sizing: border-box;
 	scroll-behavior: smooth; 
-	overflow-x: hidden;
 }
 
 ::-webkit-scrollbar{
@@ -17,6 +16,7 @@
 body {
 	height: 100vh; 
 	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
 }
 
 .header > svg {
