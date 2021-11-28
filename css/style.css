@@ -15,7 +15,7 @@
  
 .landing-page { 
 	padding: 10px;
-	line-height: 10px;
+	line-height: 10px; 
 }
 
 /* Logo styling  */
@@ -26,7 +26,7 @@
 	font-size: 1.5rem;
 	font-weight: 500;
 	color: #eee !important;
-	padding: 18px 0px 0px 18px;
+	padding: 10px 0px 0px 18px;
 	z-index: 999;
 	text-shadow: 2px 2px #FF0066;
 }
@@ -196,7 +196,7 @@
 
 .home-cover > img {
 	width: 100%;
-
+	padding-bottom: 20px;
 }
 
 .options {
@@ -207,7 +207,7 @@
 /* About Page Zone  */
 #about {
     color: #fff; 
-	padding: 100px 0; 
+	padding: 60px 0px 0px 0px; 
 	/* Create the parallax scrolling effect */
 	background-image: url('.././assets/images/ligh-bg/bg-final.png');
 	background-attachment: fixed; 
@@ -261,7 +261,6 @@ h3 {
 	text-shadow: 2px 2px #FF0066;
 }
 
-
 .pc {
     display: block;
 	padding: 50px 0; 
@@ -273,27 +272,7 @@ h3 {
 .cp2 {
     display: none; 
 }
-/* End Project Page  */
 
-/* Contact Page Zone */
-#contact {
-    color: #fff; 
-	padding: 100px 0;
-	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/ligh-bg/bg-final.png');
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.text-a {
-	color: #FF0066;
-}
-
-.projects-heading-2 {
-	font-size: 45px;;
-}
 .projects-capstone1::before {
 	content: "Capstone 01";
 	border-bottom: 5px solid #FF0066;
@@ -309,10 +288,27 @@ h3 {
 	border-bottom: 5px solid #FF0066;
 	text-shadow: 2px 2px #FF0066;
 }
-
 .capstone-1{
 	padding-top: 100px;
 }
+.projects-heading-2 {
+	font-size: 45px;;
+}
+/* End Project Page  */
+
+/* Contact Page Zone */
+#contact {
+    color: #fff; 
+	padding: 100px 0;
+	/* Create the parallax scrolling effect */
+	background-image: url('.././assets/images/ligh-bg/bg-final.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ 
+
 
 .img {
 	background-image: url('.././assets/images/meh/contact-thumb.png');
@@ -360,5 +356,10 @@ h3 {
 .toggle-btn:hover { 
 	cursor: not-allowed;  
 	transition: .5s ease-in-out;
+}
+.socmed > img {
+	width: 60px;
+	padding: 5px;
+	padding-bottom: 20px;
 }
 /* End Footer  */

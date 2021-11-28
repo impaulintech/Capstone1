@@ -153,6 +153,9 @@ float: right;
   .cp2 {
       display: block;
   }
+  .landing-page {  
+    padding-left: 20px;
+  }
 
   #landing {
   	background-image: url('.././assets/images/bg/landing-bg-dark-mb.svg');
