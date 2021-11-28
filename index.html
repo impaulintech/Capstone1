@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Capstone Project 1 | John Paul Banera</title> 
+	<link rel="icon" href="./assets/images/icons/logo-icon.png" >
 	<meta property="og:site_name" content="John Paul Banera">
 	<meta property="og:title" content="Capstone Project 1">
 	<meta property="og:image" content="./assets/images/meh/cover.png">
@@ -17,14 +18,14 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet"> 
-	<!-- Icon  -->
-	<link rel="icon" href="./assets/images/icons/logo-icon.png" >
+	<!-- For animation  -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
  
 </head>
 <body id="top">
 	<!-- Navbar Section -->
 	<section id="navbar" class="navctn">
-		<a class="navbar-brand logo" href="#top">Paul in tech</a>
+		<a class="navbar-brand logo" href="#top" >Paul in tech</a>
 		<nav class="navbar navbar-expand-lg navbar-dark">
 		  <div class="container-fluid justify-content-end">
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,10 +55,10 @@
 	<!-- Landing page  -->
 	<div id="landing">
 		<div class="landing-page"> 
-			<p class="hello">Hello, I am</p>
-			<h1 class="heading">Paul in Tech</h1>
-			<p class="sub">I tell computers what to do, sometimes they listen</p>
-			<a class="fancy" href="#home" id="fancy">
+			<p class="hello" data-aos="fade-right" data-aos-delay="70" >Hello, I am</p>
+			<h1 class="heading" data-aos="fade-right" data-aos-delay="60" >Paul in Tech</h1>
+			<p class="sub" data-aos="fade-left" data-aos-delay="50" >I tell computers what to do, sometimes they listen</p>
+			<a class="fancy" href="#home" id="fancy" data-aos="fade-left" data-aos-delay="60" >
 				<span class="top-key"></span>
 				<span class="text">let's dive in</span>
 				<span class="bottom-key-1"></span>
@@ -71,12 +72,12 @@
 		<div class="container"> 
 			<div class="row">
 				<div class="col-sm-12 home-cover">
-					<img src="./assets/images/meh/meh-cover-desktop.png" />
+					<img src="./assets/images/meh/meh-cover-desktop.png"  data-aos="fade-down" data-aos-delay="150" />
 				</div>  
 			</div>  
 			<div class="row">
-				<div class="col-md-4 text-center home-about">
-					<img src="./assets/images/meh/about-thumb.png" />
+				<div class="col-md-4 text-center home-about" data-aos="fade-right" data-aos-delay="150" >
+					<a href="#about"><img src="./assets/images/meh/about-thumb.png"/></a>
 					<a class="fancy options" href="#about" id="fancy">
 						<span class="top-key"></span>
 						<span class="text">about me</span>
@@ -84,8 +85,8 @@
 						<span class="bottom-key-2"></span>
 					</a>
 				</div> 
-				<div class="col-md-4 text-center home-projects">
-					<img src="./assets/images/meh/projects-thumb.png" />
+				<div class="col-md-4 text-center home-projects" data-aos="fade-up" data-aos-delay="150" >
+					<a href="#projects"><img src="./assets/images/meh/projects-thumb.png" /></a>
 					<a class="fancy options" href="#projects" id="fancy">
 						<span class="top-key"></span>
 						<span class="text">projects</span>
@@ -93,8 +94,8 @@
 						<span class="bottom-key-2"></span>
 					</a>
 				</div>  
-				<div class="col-md-4 text-center home-contact">
-					<img src="./assets/images/meh/contact-thumb.png" />
+				<div class="col-md-4 text-center home-contact" data-aos="fade-left" data-aos-delay="150" >
+					<a href="#contact"><img src="./assets/images/meh/contact-thumb.png" /></a>
 					<a class="fancy options" href="#contact" id="fancy">
 						<span class="top-key"></span>
 						<span class="text">contact me</span>
@@ -111,15 +112,15 @@
 		<div class="container">
 			<div class="row"> 
 				<div class="col-lg-6">
-					<img src="./assets/images/meh/about-business.png" width="100%" class="pc"/>
-					<img src="./assets/images/meh/about-business-mobile.png" width="100%" class="cp2"/>
+					<img src="./assets/images/meh/about-business.png" width="100%" class="pc"   data-aos="fade-right" data-aos-delay="150" />
+					<img src="./assets/images/meh/about-business-mobile.png" width="100%" class="cp2"  data-aos="fade-right" data-aos-delay="150" />
 				</div> 
 				<div class="col-lg-6">
-					<div class="d-flex flex-column"> 
-						<div class="p-2 about-heading"  >
+					<div class="d-flex flex-column" > 
+						<div class="p-2 about-heading" data-aos="fade-down" data-aos-delay="150">
 							<h1><span class="abt-heading"></span><span class="me-heading"></span></h1>
 						</div>
-						<div class="p-2">
+						<div class="p-2" data-aos="fade-left" data-aos-delay="150">
 							<p class="about-subheading">  
 								<p class="sub">I'am Paul.</p>
 								<p class="sub">I'm in my twenties and I enjoy trading and investing in cryptocurrencies.</p>
@@ -127,7 +128,7 @@
 								<p class="sub">While I enjoy coding and solving real-world problems.</p> 
 							</p>
 						</div> 
-						<div class="connect">
+						<div class="connect" data-aos="fade-up" data-aos-delay="150">
 							<span class="made-with">connect with me</span> 
 							<a href="https://github.com/impaulintech" target="_new" class="socmed">
 								<img src="./assets/images/icons/github-dark.png" width="10%"/>
@@ -145,10 +146,10 @@
 			<div class="row"> 
 				<div class="col-lg-6">
 					<div class="d-flex flex-column"> 
-						<div class="p-2 about-heading"  >
+						<div class="p-2 about-heading" data-aos="fade-down" data-aos-delay="150">
 							<h1><span class="goal-heading"></span></h1>
 						</div>
-						<div class="p-2">
+						<div class="p-2" data-aos="fade-up" data-aos-delay="150">
 							<p class="goal-subheading">
 								<p class="sub">Everyone has a fantasy company, and FAANG is mine.</p>
 								<p class="sub">My ambition is to work for the company that fulfills all of my wildest fantasies.</p>
@@ -160,10 +161,10 @@
 				</div> 
 				<div class="col-lg-6">
 					<div class="d-flex flex-column"> 
-						<div class="p-2 about-heading"  >
+						<div class="p-2 about-heading" data-aos="fade-down" data-aos-delay="150">
 							<h1><span class="roadmap-heading"></span></h1>
 						</div>
-						<div class="p-2">
+						<div class="p-2" data-aos="fade-up" data-aos-delay="150">
 							<p class="roadmap-subheading">
 								<p class="sub">Setting a goal is as simple as 0, 1, 2.</p>
 								<p class="sub">But making it happen is so difficult, but that is what life is all about.</p>
@@ -174,7 +175,7 @@
 					</div>
 				</div>  
 			</div>
-			<div class="row languange text-center">   
+			<div class="row languange text-center" data-aos="fade-right" data-aos-delay="150">   
 				<div class="col-4">
 					<img src="./assets/images/icons/html5-dark.png"/>
 					<img src="./assets/images/icons/css3-dark.png"/> 
@@ -197,10 +198,10 @@
 				<div class="col-sm-2"><img src="./assets/images/icons/python-dark.png"/></div> 
 				-->
 			
-			<h3 class="text-center">“It's easy to tell computers what to do, if they can understand you.”</h3>
-			<div class="row row-bot">
-				<div class="col-md-6 text-center home-projects">
-					<img src="./assets/images/meh/projects-thumb.png" />
+			<h3 class="text-center" data-aos="fade-left" data-aos-delay="150">“It's easy to tell computers what to do, if they can understand you.”</h3>
+			<div class="row row-bot" data-aos="fade-up" data-aos-delay="150">
+				<div class="col-md-6 text-center about-projects">
+					<a href="#projects"><img src="./assets/images/meh/projects-thumb.png" /></a>
 					<a class="fancy options" href="#projects" id="fancy">
 						<span class="top-key"></span>
 						<span class="text">projects</span>
@@ -208,8 +209,8 @@
 						<span class="bottom-key-2"></span>
 					</a>
 				</div>  
-				<div class="col-md-6 text-center home-contact">
-					<img src="./assets/images/meh/contact-thumb.png" />
+				<div class="col-md-6 text-center about-contact">
+					<a href="#contact"><img src="./assets/images/meh/contact-thumb.png" /></a>
 					<a class="fancy options" href="#contact" id="fancy">
 						<span class="top-key"></span>
 						<span class="text">contact me</span>
@@ -226,7 +227,7 @@
 		<div class="container">
 			<div class="row"> 
 				<div class="col-lg-6">
-					<div class="d-flex flex-column"> 
+					<div class="d-flex flex-column" data-aos="fade-right" data-aos-delay="150"> 
 						<div class="p-2 about-heading"  >
 							<h1><span class="projects-heading"></span></h1>
 						</div>
@@ -244,17 +245,18 @@
 						</div> 
 					</div>
 				</div> 
-				<div class="col-lg-6">
+				<div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
 					<img src="./assets/images/meh/projects-cover.png"  width="100%"/>
 				</div>  
 			</div>
 		</div>
+
 		<div class="container capstone-1">
 			<div class="row"> 
-				<div class="col-lg-6">
+				<div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
 					<img src="./assets/images/projects/capstone1.png" width="100%"/>
 				</div> 
-				<div class="col-lg-6">
+				<div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
 					<div class="d-flex flex-column"> 
 						<div class="p-2 about-heading"  >
 							<h1><span class="projects-capstone1 projects-heading-2"></span></h1>
@@ -298,12 +300,13 @@
 				</div>  
 			</div>
 		</div>
-		<div class="container axie pc">
+
+		<div class="container ukay pc">
 			<div class="row"> 
 				<div class="col-lg-6">
-					<div class="d-flex flex-column"> 
+					<div class="d-flex flex-column" data-aos="fade-left" data-aos-delay="150"> 
 						<div class="p-2 about-heading"  >
-							<h1><span class="projects-axie projects-heading-2"></span></h1>
+							<h1><span class="projects-ukay projects-heading-2"></span></h1>
 						</div>
 						<div class="p-2">
 							<p class="about-subheading">
@@ -328,48 +331,51 @@
 								</div>
 							</div> 
 						</div> 
-					</div>
-					<ul class="ul-axie">
-						<table>
-							<tr>
-								<td><li>HTML</li></td> 
-								<td>: 5.5%</td>
-							</tr>
-							<tr>
-								<td><li>CSS</li></td>
-								<td>: 30.6%</td>
-							</tr>
-							<tr>
-								<td><li>PHP</li></td>
-								<td>: 46.9%</td>
-							</tr>
-							<tr>
-								<td><li>JAVASCRIPT</li></td>
-								<td>: 17.0%</td>
-							</tr>
-						</table>
-					</ul> 
-				</div>  
-				<div class="col-lg-6">
-					<img src="./assets/images/projects/ukay.png" width="100%"/>
+						<ul class="ul-ukay">
+							<table>
+								<tr>
+									<td><li>HTML</li></td> 
+									<td>: 5.5%</td>
+								</tr>
+								<tr>
+									<td><li>CSS</li></td>
+									<td>: 30.6%</td>
+								</tr>
+								<tr>
+									<td><li>PHP</li></td>
+									<td>: 46.9%</td>
+								</tr>
+								<tr>
+									<td><li>JAVASCRIPT</li></td>
+									<td>: 17.0%</td>
+								</tr>
+							</table>
+						</ul>   
 				</div> 
 			</div>
+			<div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+				<img src="./assets/images/projects/ukay.png" width="100%"/>
+			</div>
+			</div>
+		
 		</div>
-		<div class="container axie cp">
+
+		<div class="container ukay cp2">
 			<div class="row"> 
-				<div class="col-lg-6">
+				<div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
 					<img src="./assets/images/projects/ukay.png" width="100%"/>
 				</div> 
-				<div class="col-lg-6">
-					<div class="d-flex flex-column" style="padding-left: 15px;"> 
+				<div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+					<div class="d-flex flex-column ukay-mb"> 
 						<div class="p-2 about-heading"  >
-							<h1><span class="projects-axie projects-heading-2"></span></h1>
+							<h1><span class="projects-ukay projects-heading-2"></span></h1>
 						</div>
 						<div class="p-2">
 							<p class="about-subheading">
-								<p class="sub">I created Axie Tool to help Axie Managers.</p>
-								<p class="sub">Axie Tool can track every details of your scholars.</p>
-								<p class="sub">You can track your earnings, winrate, MMR and a lot more.</p> 
+								<p class="sub">I created Okay Ukay for my small business, way back 2020 when covid pandemic hit.</p>
+								<p class="sub">This enables me to track accurately all of my progress.</p>
+								<p class="sub">Eventually after a profitable journey, Okay Ukay was sold.</p>
+								<p class="sub">After that I founded <a href="https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.6435-9/167670359_142670067772412_6536540092031709675_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=Yv8u51tw_OwAX8x4uVx&tn=_n5SGTq6qr5opBXV&_nc_ht=scontent.fmnl4-2.fna&oh=a397535981df54463545f6db9c86ac10&oe=61CADE19" target="_new">Treasures.ph</a> which is my <a href="https://video.fmnl4-6.fna.fbcdn.net/v/t42.1790-2/168273735_1108284353018260_4361376575804074419_n.mp4?_nc_cat=107&ccb=1-5&_nc_sid=985c63&efg=eyJybHIiOjMwMCwicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoic3ZlX3NkIn0%3D&_nc_ohc=7_f4TrXMCJMAX8iYqzh&rl=300&vabr=111&_nc_ht=video.fmnl4-6.fna&oh=d228054e707fd58e8138581b99bf7993&oe=61A3C8B6" target="_new">3D printing business</a>.</p> 
 							</p>
 							<span class="made-with">languanges</span> 
 							<div class="row text-center made-with-img">   
@@ -386,37 +392,38 @@
 									<img src="./assets/images/icons/php-dark.png" width="50%"/>
 								</div>
 							</div> 
-							<ul class="ul-axie">
-								<table>
-									<tr>
-										<td><li>HTML</li></td> 
-										<td>: 5.5%</td>
-									</tr>
-									<tr>
-										<td><li>CSS</li></td>
-										<td>: 30.6%</td>
-									</tr>
-									<tr>
-										<td><li>PHP</li></td>
-										<td>: 46.9%</td>
-									</tr>
-									<tr>
-										<td><li>JAVASCRIPT</li></td>
-										<td>: 17.0%</td>
-									</tr>
-								</table>
-							</ul> 
 						</div> 
+						<ul class="ul-ukay">
+							<table>
+								<tr>
+									<td><li>HTML</li></td> 
+									<td>: 5.5%</td>
+								</tr>
+								<tr>
+									<td><li>CSS</li></td>
+									<td>: 30.6%</td>
+								</tr>
+								<tr>
+									<td><li>PHP</li></td>
+									<td>: 46.9%</td>
+								</tr>
+								<tr>
+									<td><li>JAVASCRIPT</li></td>
+									<td>: 17.0%</td>
+								</tr>
+							</table>
+						</ul> 
 					</div>
 				</div>  
 			</div>
 		</div>
+
 		<div class="container comming-soon">
 			<div class="row"> 
-				<div class="col-lg-6">
+				<div class="col-lg-6"  data-aos="fade-left" data-aos-delay="150">
 					<img src="./assets/images/projects/coming-soon.png" width="100%"/>
 				</div> 
-				<div class="col-lg-6">
+				<div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
 					<div class="d-flex flex-column"> 
 						<div class="p-2 about-heading"  >
 							<h1><span class="projects-coming-soon projects-heading-2"></span></h1>
@@ -439,16 +446,15 @@
 			</div>
 		</div>
 	</div>
-	
 	<!-- Contact section -->
 	<div id="contact">
 		<div class="container">
 			<div class="row"> 
 				<div class="col-lg-6">
-					<img src="./assets/images/meh/contact-business.png" width="100%" class="pc"/>
-					<img src="./assets/images/meh/contact-business-mb.png" width="100%" class="cp2"/>
+					<img src="./assets/images/meh/contact-business.png" width="100%" class="pc" data-aos="fade-right" data-aos-delay="150"/>
+					<img src="./assets/images/meh/contact-business-mb.png" width="100%" class="cp2" data-aos="fade-right" data-aos-delay="150"/>
 				</div> 
-				<div class="col-lg-6">
+				<div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
 					<div class="d-flex flex-column"> 
 						<div class="p-2 about-heading"  >
 							<h1><span class="contact-heading"></span><span class="me2-heading"></span></h1>
@@ -467,7 +473,7 @@
 									<label for="exampleFormControlTextarea1" class="form-label">Your message</label>
 									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Let's talk about business."></textarea>
 								</div>
-								<a class="fancy options" href="#contact" id="fancy">
+								<a class="fancy options contact-form" onclick="alert('Message sent!');" id="fancy">
 									<span class="top-key"></span>
 									<span class="text">send message</span>
 									<span class="bottom-key-1"></span>
@@ -487,7 +493,7 @@
 								<img src="./assets/images/icons/link-dark.png"  width="10%"/>
 							</a>
 						</div>
-						<ul class="ul-axie-contact">
+						<ul class="ul-ukay-contact">
 							<table>
 								<tr>
 									<td><li>My Email</li></td> 
@@ -509,27 +515,26 @@
 			</div>
 		</div>
 	</div>
-
 	<!-- Footer section -->
 	<div id="footer">
 		<footer class="container text-center">
-			<p style="font-size: 20px;">It's not about ideas. It's about making ideas happen.</p> 
-			<input type="email" placeholder="email@domain.com" name="email">
-			<a href="#" onclick="alert('Email has been sent!');"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+			<p data-aos="fade-down" data-aos-delay="1000"><font size="6px">It's not about ideas. It's about making ideas happen.</font></p> 
+			<input type="email" placeholder="email@domain.com" name="email" data-aos="fade-right" data-aos-delay="5">
+			<a href="#" onclick="alert('Email has been sent!');"><svg xmlns="http://www.w3.org/2000/svg" data-aos="fade-right" data-aos-delay="5" width="35" height="35" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
 				<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
 			</svg></a>
-			<p>Let's make your ideas come true.</p> 
+			<p data-aos="fade-left" data-aos-delay="5">Let's make your ideas come true.</p> 
 
 			<!-- Social Media Links  -->
 			<div>
 				<a href="https://github.com/impaulintech" target="_new" class="socmed">
-					<img src="./assets/images/icons/github-dark.png"/>
+					<img src="./assets/images/icons/github-dark.png" data-aos="fade-down" data-aos-delay="50"/>
 				</a>
 				<a href="https://twitter.com/impaulintech" target="_new" class="socmed">
-					<img src="./assets/images/icons/twitter-dark.png"/>
+					<img src="./assets/images/icons/twitter-dark.png" data-aos="fade-up" data-aos-delay="50"/>
 				</a>
 				<a href="https://www.linkedin.com/in/impaulintech/" target="_new" class="socmed">
-					<img src="./assets/images/icons/link-dark.png" />
+					<img src="./assets/images/icons/link-dark.png" data-aos="fade-down" data-aos-delay="50"/>
 				</a>
 			</div>
 			
@@ -537,7 +542,7 @@
 				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
 				<path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
 				<path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
-			  </svg> 2021 | PaulinTech</p>
+			  </svg> 2021 | ImPaulinTech</p>
 			<!-- Back to top  -->
 			<a href="#top" class="top-btn"><img src="./assets/images/icons/top.png" /></a>
 
@@ -598,5 +603,12 @@
 	});
 	});
 	</script>
+
+	<!-- For animation  -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({ duration: 500, once: true });
+	</script>
+	<script src="./js/script.js"></script>
 </body>
 </html>

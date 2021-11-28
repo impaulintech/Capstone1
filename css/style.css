@@ -1,5 +1,3 @@
-
- 
 #landing {
     color: #fff;
 	height: 100vh;
@@ -12,7 +10,59 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
- 
+ /* Custom Nav styling */
+#navbar { 
+  top: 0;
+  width: 100%;
+  font-weight: bold;
+  padding: 0 !important;
+  position: fixed; 
+  z-index: 998;
+} 
+.navbar-nav li{
+  padding: 0 10px;
+}
+
+.navbar-nav li a { 
+  font-weight: bold;
+  float: right;
+}
+
+#nav-font > li > a { 
+	color: white;
+	opacity: 0.6; 
+	transition: .2s ease;
+}
+
+#nav-font > li > a:hover {  
+	color: white;
+	opacity: 1; 
+	cursor: pointer;
+	transition: .2s ease;
+}
+
+.nav-content {
+	display: flex;
+	justify-content: end; 
+	font-size: 30px;
+}
+
+.nav-content > a {
+	text-decoration: none; 
+}
+
+.nav-content > a:hover {
+	cursor: pointer;  
+	transition: 0.2s ease-in-out;
+}
+
+.navbar-nav li a { 
+	color: white;
+	font-weight: bold;
+	float: right;
+}
+/* End Nav  */
+
 .landing-page { 
 	padding: 10px;
 	line-height: 10px; 
@@ -209,7 +259,7 @@
     color: #fff; 
 	padding: 60px 0px 0px 0px; 
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/ligh-bg/bg-final.png');
+	background-image: url('.././assets/images/bg/others-bg-dark.svg');
 	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -251,7 +301,7 @@ h3 {
     color: #fff; 
 	padding: 100px 0;
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/ligh-bg/bg-final.png'); 
+	background-image: url('.././assets/images/bg/projects-bg-dark.svg'); 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -282,7 +332,7 @@ h3 {
 	border-bottom: 5px solid #FF0066;
 	text-shadow: 2px 2px #FF0066;
 }
-.projects-axie::before {
+.projects-ukay::before {
 	content: "Okay ukay";
 	border-bottom: 5px solid #FF0066;
 	text-shadow: 2px 2px #FF0066;
@@ -305,7 +355,7 @@ h3 {
     color: #fff; 
 	padding: 30px 0;
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/ligh-bg/bg-final.png');
+	background-image: url('.././assets/images/bg/others-bg-dark.svg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -322,6 +372,10 @@ h3 {
 	padding-bottom: 20px;
 	border-bottom: 5px solid #FF0066;
 } 
+
+.contact-form {
+	margin-bottom: 20px;
+}
 
 .img {
 	background-image: url('.././assets/images/meh/contact-thumb.png');
@@ -369,6 +423,9 @@ h3 {
 .toggle-btn:hover { 
 	cursor: not-allowed;  
 	transition: .5s ease-in-out;
+}
+.socmed {
+	text-decoration: none;
 }
 .socmed > img {
 	width: 60px;

@@ -14,63 +14,7 @@ body {
 	overflow-x: hidden;
 }
 
-/* Custom Nav styling */
-#navbar { 
-  top: 0;
-  width: 100%;
-  font-weight: bold;
-  padding: 0 !important;
-  position: fixed; 
-  z-index: 998;
-}
 
-.navbar-nav li{
-  padding: 0 10px;
-}
-
-.navbar-nav li a {
-  color: white !important; 
-  font-weight: bold;
-  float: right;
-}
-
-#nav-font > li > a {
-	color: #eee;
-	opacity: 0.6; 
-	transition: .2s ease;
-}
-
-#nav-font > li > a:hover {
-	color: #fff;
-	opacity: 1; 
-	cursor: pointer;
-	transition: .2s ease;
-}
-
-.nav-content {
-	display: flex;
-	justify-content: end;
-	color: white;
-	font-size: 30px;
-}
-
-.nav-content > a {
-	text-decoration: none;
-	color: #eee;
-}
-
-.nav-content > a:hover {
-	cursor: pointer; 
-	color: #FF0066;
-	transition: 0.2s ease-in-out;
-}
-
-.navbar-nav li a {
-color: white !important; 
-font-weight: bold;
-float: right;
-}
-/* End Nav  */
 
 .made-with {
   text-transform: uppercase;
@@ -84,6 +28,11 @@ float: right;
 .connect {
   border-left: 2px solid white;
   padding-left: 10px; 
+  text-decoration: none;
+}
+
+.connect > a {
+  text-decoration: none;
 }
 
 .made-with-img {
@@ -91,12 +40,56 @@ float: right;
   padding-bottom: 20px; 
 }
 
-.ul-axie {
+.ul-ukay {
   margin-left: 10px;
 }
 
-.ul-axie-contact {
+.ul-ukay-contact {
   padding-left: 16px;
+}
+.ul-ukay-contact {
+  padding-left: 16px;
+}
+
+.ukay-mb {
+  padding-left: 15px;
+}
+
+.home-about > a > img {   
+  transition: transform .3s;
+}
+.home-about > a > img:hover {
+  cursor: pointer; 
+  transform: rotate(20deg); 
+}
+.home-projects > a > img {   
+  transition: transform .3s;
+}
+.home-projects > a > img:hover {
+  cursor: pointer; 
+  transform: rotate(20deg); 
+}
+.home-contact > a > img {   
+  transition: transform .3s;
+}
+.home-contact > a > img:hover {
+  cursor: pointer; 
+  transform: rotate(-20deg); 
+}
+
+.about-projects > a > img {   
+  transition: transform .3s;
+}
+.about-projects > a > img:hover {
+  cursor: pointer; 
+  transform: rotate(20deg); 
+}
+.about-contact > a > img {   
+  transition: transform .3s;
+}
+.about-contact > a > img:hover {
+  cursor: pointer; 
+  transform: rotate(-20deg); 
 }
 
 #landing, #home, #contact, #projects, #footer {
@@ -161,8 +154,8 @@ float: right;
   .cp2 {
       display: block;
   } 
-  .ul-axie {
-    margin-left: 0px;
+  .ul-ukay {
+    margin-left: 10px;
   }
   
   .landing-page {  
@@ -174,6 +167,10 @@ float: right;
   .me2-heading::before {
     font-size: 45px;  
   } 
+  .ukay-mb {
+    padding-left: 0px;
+  }
+
 
   #landing {
   	background-image: url('.././assets/images/bg/landing-bg-dark-mb.svg');
