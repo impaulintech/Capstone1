@@ -233,7 +233,7 @@
 }
  
 .languange > div > img {
-	padding: 100px 10px 20px 10px;
+	padding: 100px 20px 20px 20px;
 	width: 40%;
 }
 
@@ -254,11 +254,24 @@ h3 {
 	background-size: cover;
 }
 
-
 .projects-heading::before {
 	content: "Projects";
 	font-size: 45px;
 	border-bottom: 5px solid #FF0066;
+	text-shadow: 2px 2px #FF0066;
+}
+
+
+.pc {
+    display: block;
+	padding: 50px 0; 
+}
+.cp {
+    display: none;
+	padding: 50px 0; 
+}
+.cp2 {
+    display: none; 
 }
 /* End Project Page  */
 
@@ -284,14 +297,17 @@ h3 {
 .projects-capstone1::before {
 	content: "Capstone 01";
 	border-bottom: 5px solid #FF0066;
+	text-shadow: 2px 2px #FF0066;
 }
 .projects-axie::before {
 	content: "Axie tool";
 	border-bottom: 5px solid #FF0066;
+	text-shadow: 2px 2px #FF0066;
 }
 .projects-coming-soon::before {
 	content: "coming soon";
 	border-bottom: 5px solid #FF0066;
+	text-shadow: 2px 2px #FF0066;
 }
 
 .capstone-1{
