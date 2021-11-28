@@ -31,13 +31,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/ligh-bg/home.png'); 
+	background-image: url('.././assets/images/bg/landing-bg-dark.svg'); 
 	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
 }
  
-
 .nav-content {
 	display: flex;
 	justify-content: end;
@@ -54,6 +53,12 @@ body {
 	cursor: pointer; 
 	color: #FF0066;
 	transition: 0.2s ease-in-out;
+}
+
+.navbar-nav li a {
+color: white !important; 
+font-weight: bold;
+float: right;
 }
 
 .logo { 
@@ -209,31 +214,9 @@ body {
 }
 
 
-@media screen and (max-width: 700px) {
-	.landing-page {
-		float: left;
-		width: 400px; 
-	}
-	.hello{
-		font-size: 20px;
-	}
-	.heading{
-		font-size: 69px;
-		font-weight: 500;
-		letter-spacing: 6px;
-	}
-	.sub{ 
-		font-family: verdana;
-		font-size: 18px;
-		line-height: 30px;
-		width: 300px;
-	}
-} 
-
-
 #home {
     color: #fff;
-	background-image: url('.././assets/images/ligh-bg/bg-final.png');    
+	background-image: url('.././assets/images/bg/stacked-bg-dark.svg');    
 	padding: 100px 0;
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed; 
@@ -370,19 +353,13 @@ h3 {
 .img {
 	background-image: url('.././assets/images/meh/contact-thumb.png');
 	height: 100%;
-}
-@media screen and (max-width: 700px) {
-	.img { 
-		height: 500px;
-	}
 } 
-
 
 
 
 #footer {
     color: #fff;
-	background-color: black;
+	background-color: #000000; 
 	color: white; 
 	height: 100vh;
 	padding: 200px 0; 

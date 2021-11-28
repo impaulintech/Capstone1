@@ -1,0 +1,177 @@
+body {
+	overflow-x: hidden;
+}
+
+#landing{
+	/*Flex & others for default testing - comment if not in used*/
+	/* background-color: green; */
+	height: 100vh;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	font-weight: 900;
+	font-size: 100px; 
+	text-transform: uppercase;
+	color: white;
+	/*End of testing zone - code underneath are finalize*/
+
+	/*Background for parallax effect*/
+	background-image: url('.././assets/images/bg/landing-bg-dark.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+ 
+#navbar { 
+	top: 0;
+	width: 100%;
+	font-weight: bold;
+	padding: 0 !important;
+	position: fixed; 
+	z-index: 998;
+}
+@media (max-width: 900px) {
+	
+	#nav-font {
+		background-color: rgba(0, 0, 0, 0.247);
+		width: 200px;
+		float: right;
+	}
+}
+
+
+#nav-font > li > a {
+	color: #eee;
+	opacity: 0.6; 
+	transition: .2s ease;
+	float: right; 
+	display: flex;
+	justify-content: end; 
+}
+#nav-font > li > a:hover {
+	color: #fff;
+	opacity: 1; 
+	cursor: pointer;
+	transition: .2s ease;  
+} 
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.logo { 
+	position: fixed;  
+	text-transform: uppercase;
+	letter-spacing: 1px;       
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #eee !important;
+	padding: 10px 0px 0px 22px;
+	z-index: 999;
+	text-shadow: 2px 2px #FF0066;
+}
+ 
+
+#home{
+	/*Flex & others for default testing - comment if not in used*/
+	background-color: rgb(109, 128, 0);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 100px; 
+	text-transform: uppercase;
+	color: white;
+	/*End of testing zone - code underneath are finalize*/
+
+	/*Background for parallax effect*/
+	background-image: url('.././assets/images/bg/stacked-bg-dark.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+#about{
+	/*Flex & others for default testing - comment if not in used*/
+	background-color: rgb(9, 0, 128);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 100px; 
+	text-transform: uppercase;
+	color: white;
+	/*End of testing zone - code underneath are finalize*/
+
+	/*Background for parallax effect*/
+	background-image: url('.././assets/images/bg/stacked-bg-dark.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+#projects{
+	/*Flex & others for default testing - comment if not in used*/
+	background-color: rgb(128, 0, 107);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 100px; 
+	text-transform: uppercase;
+	color: white;
+	/*End of testing zone - code underneath are finalize*/
+
+	/*Background for parallax effect*/
+	background-image: url('.././assets/images/bg/stacked-bg-dark.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+#contact{
+	/*Flex & others for default testing - comment if not in used*/
+	background-color: rgb(0, 128, 111);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 100px; 
+	text-transform: uppercase;
+	color: white;
+	/*End of testing zone - code underneath are finalize*/
+
+	/*Background for parallax effect*/
+	background-image: url('.././assets/images/bg/stacked-bg-dark.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+#footer{
+	/*Flex & others for default testing - comment if not in used*/
+	background-color: rgb(0, 0, 0);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 100px; 
+	text-transform: uppercase;
+	color: white;
+	/*End of testing zone - code underneath are finalize*/
+
+	/*Background for parallax effect*/
+	background-image: url('.././assets/images/bg/stacked-bg-dark.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
