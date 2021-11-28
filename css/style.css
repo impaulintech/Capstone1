@@ -240,6 +240,10 @@
 h3 {
 	padding: 20px 0 100px 0; 
 }
+
+.row-bot {
+	padding-bottom: 100px;
+}
 /* End About Page  */
 
 /* Project Page Zone */
@@ -279,7 +283,7 @@ h3 {
 	text-shadow: 2px 2px #FF0066;
 }
 .projects-axie::before {
-	content: "Axie tool";
+	content: "Okay ukay";
 	border-bottom: 5px solid #FF0066;
 	text-shadow: 2px 2px #FF0066;
 }
@@ -299,7 +303,7 @@ h3 {
 /* Contact Page Zone */
 #contact {
     color: #fff; 
-	padding: 100px 0;
+	padding: 30px 0;
 	/* Create the parallax scrolling effect */
 	background-image: url('.././assets/images/ligh-bg/bg-final.png');
 	background-attachment: fixed;
@@ -309,6 +313,15 @@ h3 {
 }
  
 
+.contact-heading::before {
+	content: "Contact";
+	border-bottom: 5px solid #FF0066;
+}
+.me2-heading::before {
+	content: " Me";
+	padding-bottom: 20px;
+	border-bottom: 5px solid #FF0066;
+} 
 
 .img {
 	background-image: url('.././assets/images/meh/contact-thumb.png');

@@ -83,12 +83,20 @@ float: right;
 
 .connect {
   border-left: 2px solid white;
-  padding-left: 20px;
+  padding-left: 10px; 
 }
 
 .made-with-img {
   border-left: 3px solid white;
   padding-bottom: 20px; 
+}
+
+.ul-axie {
+  margin-left: 10px;
+}
+
+.ul-axie-contact {
+  padding-left: 16px;
 }
 
 #landing, #home, #contact, #projects, #footer {
@@ -138,7 +146,7 @@ float: right;
     font-size: 45px;  
   }
   .projects-coming-soon::before {
-    font-size: 45px; 
+    font-size: 40px; 
   }
   .languange > div > img {
     padding: 25px 0px 20px 0px;
@@ -152,10 +160,20 @@ float: right;
   }
   .cp2 {
       display: block;
+  } 
+  .ul-axie {
+    margin-left: 0px;
   }
+  
   .landing-page {  
     padding-left: 20px;
   }
+  .contact-heading::before {
+    font-size: 45px;  
+  }
+  .me2-heading::before {
+    font-size: 45px;  
+  } 
 
   #landing {
   	background-image: url('.././assets/images/bg/landing-bg-dark-mb.svg');
