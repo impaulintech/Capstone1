@@ -117,6 +117,9 @@ float: right;
   .projects-coming-soon::before {
     font-size: 45px; 
   }
+  #landing {
+  	background-image: url('.././assets/images/bg/landing-bg-dark-mb.svg');
+  }
   #home {
   	background-image: url('.././assets/images/bg/stacked-bg-dark-mb.svg');
   }
