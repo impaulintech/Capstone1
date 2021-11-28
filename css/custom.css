@@ -1,95 +1,102 @@
-*{
+* {
 	padding: 0;
-	margin: 0; 
-	box-sizing: border-box; 
-  font-family: 'Poppins', sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
 	display: none;
-}  
- 
-body { 
+}
+
+body {
 	font-family: 'Poppins', sans-serif;
 	overflow-x: hidden;
 }
 
-
-
 .made-with {
-  text-transform: uppercase;
-  font-size: 30px;
-  display: flex;
-  justify-content: start;
-  margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 30px;
+	display: flex;
+	justify-content: start;
+	margin-bottom: 10px;
 	text-shadow: 1px 1px #FF0066;
 }
 
 .connect {
-  border-left: 2px solid white;
-  padding-left: 10px; 
-  text-decoration: none;
+	border-left: 2px solid white;
+	padding-left: 10px;
+	text-decoration: none;
 }
 
 .connect > a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .made-with-img {
-  border-left: 3px solid white;
-  padding-bottom: 20px; 
+	border-left: 3px solid white;
+	padding-bottom: 20px;
 }
 
 .ul-ukay {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 .ul-ukay-contact {
-  padding-left: 16px;
+	padding-left: 16px;
 }
+
 .ul-ukay-contact {
-  padding-left: 16px;
+	padding-left: 16px;
 }
 
 .ukay-mb {
-  padding-left: 15px;
+	padding-left: 15px;
 }
 
-.home-about > a > img {   
-  transition: transform .3s;
+.home-about > a > img {
+	transition: transform .3s;
 }
+
 .home-about > a > img:hover {
-  cursor: pointer; 
-  transform: rotate(20deg); 
-}
-.home-projects > a > img {   
-  transition: transform .3s;
-}
-.home-projects > a > img:hover {
-  cursor: pointer; 
-  transform: rotate(20deg); 
-}
-.home-contact > a > img {   
-  transition: transform .3s;
-}
-.home-contact > a > img:hover {
-  cursor: pointer; 
-  transform: rotate(-20deg); 
+	cursor: pointer;
+	transform: rotate(20deg);
 }
 
-.about-projects > a > img {   
-  transition: transform .3s;
+.home-projects > a > img {
+	transition: transform .3s;
 }
+
+.home-projects > a > img:hover {
+	cursor: pointer;
+	transform: rotate(20deg);
+}
+
+.home-contact > a > img {
+	transition: transform .3s;
+}
+
+.home-contact > a > img:hover {
+	cursor: pointer;
+	transform: rotate(-20deg);
+}
+
+.about-projects > a > img {
+	transition: transform .3s;
+}
+
 .about-projects > a > img:hover {
-  cursor: pointer; 
-  transform: rotate(20deg); 
+	cursor: pointer;
+	transform: rotate(20deg);
 }
-.about-contact > a > img {   
-  transition: transform .3s;
+
+.about-contact > a > img {
+	transition: transform .3s;
 }
+
 .about-contact > a > img:hover {
-  cursor: pointer; 
-  transform: rotate(-20deg); 
+	cursor: pointer;
+	transform: rotate(-20deg);
 }
 
 #landing, #home, #contact, #projects, #footer {
@@ -100,83 +107,102 @@ body {
 @media screen and (max-width: 700px) {
 	.landing-page {
 		float: left;
-		width: 400px; 
+		width: 400px;
 	}
-	.hello{
+
+	.hello {
 		font-size: 20px;
 	}
-	.heading{
+
+	.heading {
 		font-size: 69px;
 		font-weight: 500;
 		letter-spacing: 6px;
 	}
-	.sub{ 
+
+	.sub {
 		font-family: verdana;
 		font-size: 18px;
 		line-height: 30px;
 		width: 300px;
 	}
-  .img { 
+
+	.img {
 		height: 500px;
 	}
-  .abt-heading::before { 
-    font-size: 54px; 
-  }
-  .me-heading::before { 
-    font-size: 54px;
-    padding-bottom: 10px; 
-  } 
-  .goal-heading::before { 
-    font-size: 45px; 
-  } 
-  .roadmap-heading::before { 
-    font-size: 45px; 
-  } 
-  .projects-capstone1::before {
-    font-size: 45px; 
-  }
-  .projects-axie::before {
-    font-size: 45px;  
-  }
-  .projects-coming-soon::before {
-    font-size: 40px; 
-  }
-  .languange > div > img {
-    padding: 25px 0px 20px 0px;
-    width: 60%;
-  }
-  .pc {
-      display: none;
-  }
-  .cp {
-      display: block;
-  }
-  .cp2 {
-      display: block;
-  } 
-  .ul-ukay {
-    margin-left: 10px;
-  }
-  
-  .landing-page {  
-    padding-left: 20px;
-  }
-  .contact-heading::before {
-    font-size: 45px;  
-  }
-  .me2-heading::before {
-    font-size: 45px;  
-  } 
-  .ukay-mb {
-    padding-left: 0px;
-  }
 
+	.abt-heading::before {
+		font-size: 54px;
+	}
 
-  #landing {
-  	background-image: url('.././assets/images/bg/landing-bg-dark-mb.svg');
-  }
-  #home {
-  	background-image: url('.././assets/images/bg/stacked-bg-dark-mb.svg');
-  }
+	.me-heading::before {
+		font-size: 54px;
+		padding-bottom: 10px;
+	}
+
+	.goal-heading::before {
+		font-size: 45px;
+	}
+
+	.roadmap-heading::before {
+		font-size: 45px;
+	}
+
+	.projects-capstone1::before {
+		font-size: 45px;
+	}
+
+	.projects-axie::before {
+		font-size: 45px;
+	}
+
+	.projects-coming-soon::before {
+		font-size: 40px;
+	}
+
+	.languange > div > img {
+		padding: 25px 0px 20px 0px;
+		width: 60%;
+	}
+
+	.pc {
+		display: none;
+	}
+
+	.cp {
+		display: block;
+	}
+
+	.cp2 {
+		display: block;
+	}
+
+	.ul-ukay {
+		margin-left: 10px;
+	}
+
+	.landing-page {
+		padding-left: 20px;
+	}
+
+	.contact-heading::before {
+		font-size: 45px;
+	}
+
+	.me2-heading::before {
+		font-size: 45px;
+	}
+
+	.ukay-mb {
+		padding-left: 0px;
+	}
+
+	#landing {
+		background-image: url('.././assets/images/bg/landing-bg-dark-mb.svg');
+	}
+
+	#home {
+		background-image: url('.././assets/images/bg/stacked-bg-dark-mb.svg');
+	}
 } 
 /* End Media query */

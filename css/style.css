@@ -1,78 +1,79 @@
 #landing {
-    color: #fff;
+	color: #fff;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/bg/landing-bg-dark.svg'); 
-	background-attachment: fixed; 
+	background-image: url('.././assets/images/bg/landing-bg-dark.svg');
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
  /* Custom Nav styling */
-#navbar { 
-  top: 0;
-  width: 100%;
-  font-weight: bold;
-  padding: 0 !important;
-  position: fixed; 
-  z-index: 998;
-} 
-.navbar-nav li{
-  padding: 0 10px;
+#navbar {
+	top: 0;
+	width: 100%;
+	font-weight: bold;
+	padding: 0 !important;
+	position: fixed;
+	z-index: 998;
 }
 
-.navbar-nav li a { 
-  font-weight: bold;
-  float: right;
+.navbar-nav li {
+	padding: 0 10px;
 }
 
-#nav-font > li > a { 
+.navbar-nav li a {
+	font-weight: bold;
+	float: right;
+}
+
+#nav-font > li > a {
 	color: white;
-	opacity: 0.6; 
+	opacity: 0.6;
 	transition: .2s ease;
 }
 
-#nav-font > li > a:hover {  
+#nav-font > li > a:hover {
 	color: white;
-	opacity: 1; 
+	opacity: 1;
 	cursor: pointer;
 	transition: .2s ease;
 }
 
 .nav-content {
 	display: flex;
-	justify-content: end; 
+	justify-content: end;
 	font-size: 30px;
 }
 
 .nav-content > a {
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 .nav-content > a:hover {
-	cursor: pointer;  
+	cursor: pointer;
 	transition: 0.2s ease-in-out;
 }
 
-.navbar-nav li a { 
+.navbar-nav li a {
 	color: white;
 	font-weight: bold;
 	float: right;
 }
 /* End Nav  */
 
-.landing-page { 
+.landing-page {
 	padding: 10px;
-	line-height: 10px; 
+	line-height: 10px;
 }
 
 /* Logo styling  */
-.logo { 
-	position: fixed;  
+.logo {
+	position: fixed;
 	text-transform: uppercase;
-	letter-spacing: 1px;       
+	letter-spacing: 1px;
 	font-size: 1.5rem;
 	font-weight: 500;
 	color: #eee !important;
@@ -83,30 +84,33 @@
 /* End logo */
  
 /* Button styling zone */
-.hello{
+.hello {
 	font-size: 30px;
 	text-shadow: 1px 1px #000000;
 }
-.heading{
+
+.heading {
 	font-size: 69px;
 	font-weight: 500;
 	letter-spacing: 4px;
 	text-shadow: 2px 2px #FF0066;
 }
-.sub{ 
+
+.sub {
 	font-family: verdana;
 	font-size: 21px;
 	width: 500px;
 	line-height: 30px;
 	text-shadow: 1px 1px #000000;
 }
+
 .fancy {
 	background-color: transparent;
 	border: 2px solid #FF0066;
 	border-radius: 0;
 	box-sizing: border-box;
 	color: #FF0066;
-	cursor: pointer; 
+	cursor: pointer;
 	float: left;
 	font-weight: 700;
 	letter-spacing: 0.05em;
@@ -122,9 +126,11 @@
 	user-select: none;
 	font-size: 13px;
 }
-#fancy{
+
+#fancy {
 	text-decoration: none;
 }
+
 .fancy::before {
 	content: " ";
 	width: 1.5625rem;
@@ -210,11 +216,11 @@
 
 /* Home Page zone */
 #home {
-    color: #fff;
-	background-image: url('.././assets/images/bg/stacked-bg-dark.svg');    
+	color: #fff;
+	background-image: url('.././assets/images/bg/stacked-bg-dark.svg');
 	padding: 100px 0;
 	/* Create the parallax scrolling effect */
-	background-attachment: fixed; 
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -225,24 +231,27 @@
 	letter-spacing: 4px;
 	margin-top: 20%;
 	margin-bottom: 10%;
-	text-transform: uppercase;   
+	text-transform: uppercase;
 	text-shadow: 3px 3px #111;
-}  
-.about-subheading { 
+}
+
+.about-subheading {
 	font-size: 24px;
-	letter-spacing: 1px; 
+	letter-spacing: 1px;
 	font-weight: normal;
 	text-shadow: 2px 2px #111;
 }
+
 .abt-heading::before {
 	content: "About";
 	border-bottom: 5px solid #FF0066;
 }
+
 .me-heading::before {
 	content: " Me";
 	padding-bottom: 20px;
 	border-bottom: 5px solid #FF0066;
-} 
+}
 
 .home-cover > img {
 	width: 100%;
@@ -256,39 +265,39 @@
 
 /* About Page Zone  */
 #about {
-    color: #fff; 
-	padding: 60px 0px 0px 0px; 
+	color: #fff;
+	padding: 60px 0px 0px 0px;
 	/* Create the parallax scrolling effect */
 	background-image: url('.././assets/images/bg/others-bg-dark.svg');
-	background-attachment: fixed; 
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-
 .goal-heading::before {
-	content: "goal"; 
+	content: "goal";
 	border-bottom: 5px solid #FF0066;
-} 
+}
+
 .roadmap-heading::before {
 	content: "roadmap";
 	font-size: 45px;
 	border-bottom: 5px solid #FF0066;
-} 
+}
 
-.goal-subheading, .roadmap-subheading { 
+.goal-subheading, .roadmap-subheading {
 	font-size: 24px;
 	font-family: arial;
 	font-weight: normal;
 }
- 
+
 .languange > div > img {
 	padding: 100px 20px 20px 20px;
 	width: 40%;
 }
 
 h3 {
-	padding: 20px 0 100px 0; 
+	padding: 20px 0 100px 0;
 }
 
 .row-bot {
@@ -298,10 +307,10 @@ h3 {
 
 /* Project Page Zone */
 #projects {
-    color: #fff; 
+	color: #fff;
 	padding: 100px 0;
 	/* Create the parallax scrolling effect */
-	background-image: url('.././assets/images/bg/projects-bg-dark.svg'); 
+	background-image: url('.././assets/images/bg/projects-bg-dark.svg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -316,15 +325,17 @@ h3 {
 }
 
 .pc {
-    display: block;
-	padding: 50px 0; 
+	display: block;
+	padding: 50px 0;
 }
+
 .cp {
-    display: none;
-	padding: 50px 0; 
+	display: none;
+	padding: 50px 0;
 }
+
 .cp2 {
-    display: none; 
+	display: none;
 }
 
 .projects-capstone1::before {
@@ -332,27 +343,32 @@ h3 {
 	border-bottom: 5px solid #FF0066;
 	text-shadow: 2px 2px #FF0066;
 }
+
 .projects-ukay::before {
 	content: "Okay ukay";
 	border-bottom: 5px solid #FF0066;
 	text-shadow: 2px 2px #FF0066;
 }
+
 .projects-coming-soon::before {
 	content: "coming soon";
 	border-bottom: 5px solid #FF0066;
 	text-shadow: 2px 2px #FF0066;
 }
-.capstone-1{
+
+.capstone-1 {
 	padding-top: 100px;
 }
+
 .projects-heading-2 {
-	font-size: 45px;;
+	font-size: 45px;
+	;
 }
 /* End Project Page  */
 
 /* Contact Page Zone */
 #contact {
-    color: #fff; 
+	color: #fff;
 	padding: 30px 0;
 	/* Create the parallax scrolling effect */
 	background-image: url('.././assets/images/bg/others-bg-dark.svg');
@@ -361,17 +377,17 @@ h3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
- 
 
 .contact-heading::before {
 	content: "Contact";
 	border-bottom: 5px solid #FF0066;
 }
+
 .me2-heading::before {
 	content: " Me";
 	padding-bottom: 20px;
 	border-bottom: 5px solid #FF0066;
-} 
+}
 
 .contact-form {
 	margin-bottom: 20px;
@@ -385,11 +401,10 @@ h3 {
 
 /* Footer Zone  */
 #footer {
-    color: #fff;
+	color: #fff;
 	background-color: #000000; 
-	color: white; 
 	height: 100vh;
-	padding: 200px 0; 
+	padding: 200px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -400,33 +415,37 @@ h3 {
 	background-size: cover;
 }
 
-.top-btn { 
+.top-btn {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
 	opacity: 0.3;
 	transition: .5s ease-in-out;
 }
-.top-btn:hover { 
-	cursor: pointer; 
+
+.top-btn:hover {
+	cursor: pointer;
 	opacity: 1;
 	transition: .5s ease-in-out;
 }
- 
-.toggle-btn { 
+
+.toggle-btn {
 	position: fixed;
 	bottom: 10px;
 	left: 10px;
 	opacity: 0.3;
 	transition: .5s ease-in-out;
 }
-.toggle-btn:hover { 
-	cursor: not-allowed;  
+
+.toggle-btn:hover {
+	cursor: not-allowed;
 	transition: .5s ease-in-out;
 }
+
 .socmed {
 	text-decoration: none;
 }
+
 .socmed > img {
 	width: 60px;
 	padding: 5px;
