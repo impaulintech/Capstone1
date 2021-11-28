@@ -1,28 +1,5 @@
-*{
-	padding: 0;
-	margin: 0; 
-	box-sizing: border-box; 
-}
 
-::-webkit-scrollbar{
-	display: none;
-}  
-
-.header {
-	height: 100vh; 
-}
-
-body {
-	height: 100vh; 
-	font-family: 'Poppins', sans-serif;
-	overflow-x: hidden;
-}
-
-.header > svg {
-	position: absolute;
-	bottom: 0;
-}
-
+ 
 #landing {
     color: #fff;
 	height: 100vh;
@@ -36,30 +13,12 @@ body {
 	background-size: cover;
 }
  
-.nav-content {
-	display: flex;
-	justify-content: end;
-	color: white;
-	font-size: 30px;
+.landing-page { 
+	padding: 10px;
+	line-height: 10px;
 }
 
-.nav-content > a {
-	text-decoration: none;
-	color: #eee;
-}
-
-.nav-content > a:hover {
-	cursor: pointer; 
-	color: #FF0066;
-	transition: 0.2s ease-in-out;
-}
-
-.navbar-nav li a {
-color: white !important; 
-font-weight: bold;
-float: right;
-}
-
+/* Logo styling  */
 .logo { 
 	position: fixed;  
 	text-transform: uppercase;
@@ -71,24 +30,9 @@ float: right;
 	z-index: 999;
 	text-shadow: 2px 2px #FF0066;
 }
-
-#nav-font > li > a {
-	color: #eee;
-	opacity: 0.6; 
-	transition: .2s ease;
-}
-#nav-font > li > a:hover {
-	color: #fff;
-	opacity: 1; 
-	cursor: pointer;
-	transition: .2s ease;
-}
-
-.landing-page { 
-	padding: 10px;
-	line-height: 10px;
-}
-
+/* End logo */
+ 
+/* Button styling zone */
 .hello{
 	font-size: 30px;
 	text-shadow: 1px 1px #000000;
@@ -211,8 +155,10 @@ float: right;
 	right: 0;
 	width: 0;
 }
+/* End button styling */
 
 
+/* Home Page zone */
 #home {
     color: #fff;
 	background-image: url('.././assets/images/bg/stacked-bg-dark.svg');    
@@ -256,7 +202,9 @@ float: right;
 .options {
 	margin-top: 15px;
 }
+/* End Home Page  */
 
+/* About Page Zone  */
 #about {
     color: #fff; 
 	padding: 100px 0; 
@@ -292,9 +240,9 @@ float: right;
 h3 {
 	padding: 20px 0 100px 0; 
 }
+/* End About Page  */
 
-
-
+/* Project Page Zone */
 #projects {
     color: #fff; 
 	padding: 100px 0;
@@ -312,8 +260,9 @@ h3 {
 	font-size: 45px;
 	border-bottom: 5px solid #FF0066;
 }
+/* End Project Page  */
 
-
+/* Contact Page Zone */
 #contact {
     color: #fff; 
 	padding: 100px 0;
@@ -353,9 +302,9 @@ h3 {
 	background-image: url('.././assets/images/meh/contact-thumb.png');
 	height: 100%;
 } 
+/* End Contact Page */
 
-
-
+/* Footer Zone  */
 #footer {
     color: #fff;
 	background-color: #000000; 
@@ -396,4 +345,4 @@ h3 {
 	cursor: not-allowed;  
 	transition: .5s ease-in-out;
 }
- 
+/* End Footer  */

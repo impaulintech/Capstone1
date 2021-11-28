@@ -1,6 +1,20 @@
 *{
-    font-family: 'Poppins', sans-serif;
-} 
+	padding: 0;
+	margin: 0; 
+	box-sizing: border-box; 
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar{
+	display: none;
+}  
+ 
+body { 
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+}
+
+/* Custom Nav styling */
 #navbar { 
   top: 0;
   width: 100%;
@@ -20,6 +34,45 @@
   float: right;
 }
 
+#nav-font > li > a {
+	color: #eee;
+	opacity: 0.6; 
+	transition: .2s ease;
+}
+
+#nav-font > li > a:hover {
+	color: #fff;
+	opacity: 1; 
+	cursor: pointer;
+	transition: .2s ease;
+}
+
+.nav-content {
+	display: flex;
+	justify-content: end;
+	color: white;
+	font-size: 30px;
+}
+
+.nav-content > a {
+	text-decoration: none;
+	color: #eee;
+}
+
+.nav-content > a:hover {
+	cursor: pointer; 
+	color: #FF0066;
+	transition: 0.2s ease-in-out;
+}
+
+.navbar-nav li a {
+color: white !important; 
+font-weight: bold;
+float: right;
+}
+/* End Nav  */
+
+/* Support styling for mobile view  */
 @media screen and (max-width: 700px) {
 	.landing-page {
 		float: left;
@@ -42,4 +95,30 @@
   .img { 
 		height: 500px;
 	}
+  .abt-heading::before { 
+    font-size: 54px; 
+  }
+  .me-heading::before { 
+    font-size: 54px;
+    padding-bottom: 10px; 
+  } 
+  .goal-heading::before { 
+    font-size: 45px; 
+  } 
+  .roadmap-heading::before { 
+    font-size: 45px; 
+  } 
+  .projects-capstone1::before {
+    font-size: 45px; 
+  }
+  .projects-axie::before {
+    font-size: 45px;  
+  }
+  .projects-coming-soon::before {
+    font-size: 45px; 
+  }
+  #home {
+  	background-image: url('.././assets/images/bg/stacked-bg-dark-mb.svg');
+  }
 } 
+/* End Media query */
