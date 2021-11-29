@@ -395,7 +395,7 @@ h3 {
 }
 
 .contact-form {
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .img {
@@ -425,7 +425,7 @@ h3 {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
-	opacity: 0.3;
+	opacity: 0.6;
 	transition: .5s ease-in-out;
 }
 
@@ -439,7 +439,7 @@ h3 {
 	position: fixed;
 	bottom: 10px;
 	left: 10px;
-	opacity: 0.3;
+	opacity: 0.6;
 	transition: .5s ease-in-out;
 }
 

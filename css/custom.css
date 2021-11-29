@@ -44,10 +44,7 @@ body {
 
 .ul-ukay-contact {
 	padding-left: 16px;
-}
-
-.ul-ukay-contact {
-	padding-left: 16px;
+	padding-bottom: 60px;
 }
 
 .ukay-mb {
@@ -101,6 +98,9 @@ body {
 
 #landing, #home, #contact, #projects, #footer {
 	overflow-x: hidden;
+}
+#contact { 
+	padding-bottom: 150px;
 }
 
 /* Support styling for mobile view  */
@@ -196,13 +196,25 @@ body {
 	.ukay-mb {
 		padding-left: 0px;
 	}
+	.contact-heading::before {
+		font-size: 40px;
+	}
+	
+	.me2-heading::before {
+		font-size: 40px;
+	}
 
 	#landing {
-		background-image: url('.././assets/images/bg/landing-bg-dark-mb.svg');
+		/* background-image: url('.././assets/images/bg/landing-bg-dark-mb.svg'); */
+		background-image: url('.././assets/images/bg/test-mb.svg');
 	}
 
 	#home {
-		background-image: url('.././assets/images/bg/stacked-bg-dark-mb.svg');
+		/* background-image: url('.././assets/images/bg/stacked-bg-dark-mb.svg'); */
+		background-image: url('.././assets/images/bg/test2-mb.svg');
+	} 
+	#projects {
+		padding-top: 0px;
 	}
 } 
 /* End Media query */
