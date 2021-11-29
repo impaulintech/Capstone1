@@ -283,8 +283,7 @@
 }
 
 .roadmap-heading::before {
-	content: "roadmap";
-	font-size: 45px;
+	content: "roadmap"; 
 	border-bottom: 5px solid #FF0066;
 }
 
